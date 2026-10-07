@@ -53,3 +53,8 @@ Exclude serial numbers where unnecessary, license keys, account details, credent
 
 A Git commit identifies the controlled experimental state. Record the source commit and configuration with each result. Use branches for experiments and tagged releases for repeatable benchmark suites. Maintain `handoff/CURRENT_STATE.md`.
 
+## Agent entrypoints and license
+
+Before making changes, read [AGENTS.md](AGENTS.md), [the multi-LLM workflow](docs/MULTI_LLM_WORKFLOW.md) and the assigned issue. Use an owned task branch, record the full source commit and validate the actual repository state before handoff.
+
+License: not yet selected by this governance bootstrap. Preserve existing copyright and any existing license or UNLICENSED declarations; public visibility is not an open-source license.
